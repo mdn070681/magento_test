@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <MDN_Siteblock1>
+            <version>1.0.0</version>
+        </MDN_Siteblock1>
+    </modules>
+    <global>
+        <models>
+            <sitebloc1>
+                <class>MDN_Siteblock1_Model</class>
+                <resourceModel>siteblock1_resource</resourceModel>
+            </sitebloc1>
+            <siteblock1_resource>
+                <class>MDN_Siteblock1_Model_Resource</class>
+                <entities>
+                    <block>
+                        <table>mdn_siteblock1</table>
+                    </block>
+                </entities>
+            </siteblock1_resource>
+        </models>
+
+
+    </global>
+    <frontend>
+
+    </frontend>
+    <admin>
+
+    </admin>
+    <default>
+
+    </default>
+</config>
