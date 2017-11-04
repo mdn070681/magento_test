@@ -10601,3 +10601,109 @@ div.calendar table td.button {
   color: inherit;
   text-transform: none;
 }
+
+/*
+ * 	Core Owl Carousel CSS File
+ *	v1.15
+ */
+
+ clearfix
+.owl-carousel:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel{
+  display: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper{
+  position: relative;
+  display: inline-block;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -webkit-perspective: 1000;
+}
+.owl-carousel .owl-item{
+  float: left;
+}
+.owl-controlls .owl-page,
+.owl-controlls .owl-buttons{
+  cursor: pointer;
+}
+.owl-controlls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ mouse grab icon
+.grabbing {
+  cursor:url(/images/grabbing.png) 8 8, move;
+}
+
+ fix
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+/*adaptive*/
+#wrapper_owl {
+  width: 838px;
+  margin: 0 auto;
+}
+#slider_product {
+  width: 980px;
+}
+@media screen and (max-width: 1199px) {
+  #wrapper_owl {
+    width: 710px;
+    margin: 0 auto;
+  }
+  #slider_product {
+    width: 710px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 979px) {
+  #slider_product, #wrapper_owl {
+    width: 568px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #slider_product, #wrapper_owl {
+    width: 568px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  #slider_product, #wrapper_owl {
+    width: 426px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  #slider_product, #wrapper_owl {
+    width: 284px;
+    margin: 0 auto;
+  }
+}
+/*adaptive*/
+#wrapper_owl .sale_price {
+color: red;
+font-weight: 600;
+}
+#owl-example .owl-wrapper img {
+margin-top: 0;
+}

@@ -13,6 +13,9 @@
             <script>lib/jquery/jquery-1.12.0.min.js</script>
          </action>
          <action method="addJs">
+            <script>lib/jquery/jquery-1.12.0.min.js</script>
+         </action>
+         <action method="addJs">
             <script>lib/jquery/noconflict.js</script>
          </action>
          <action method="addJs">
@@ -63,6 +66,10 @@
          </action>
          <action method="addItem">
             <type>skin_js</type>
+            <name>js/lib/jquery-1.7.1.min.js</name>
+         </action>
+         <action method="addItem">
+            <type>skin_js</type>
             <name>js/lib/matchMedia.js</name>
          </action>
          <action method="addItem">
@@ -88,6 +95,10 @@
          <action method="addItem">
             <type>skin_js</type>
             <name>js/slideshow.js</name>
+         </action>
+         <action method="addItem">
+            <type>skin_js</type>
+            <name>js/owl.carousel.js</name>
          </action>
          <action method="addItem">
             <type>skin_js</type>
