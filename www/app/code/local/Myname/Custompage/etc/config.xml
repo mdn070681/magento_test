@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Myname_Custompage>
+            <version>1.0</version>
+        </Myname_Custompage>
+    </modules>
+
+    <global>
+        <page>
+            <layouts>
+				<one_column_custom module="page" translate="label">
+                    <label>Custom 1 column</label>
+                    <template>page/1column.phtml</template>
+                    <layout_handle>page_one_column_custom</layout_handle>
+                </one_column_custom>
+            </layouts>
+        </page>
+    </global>
+
+</config>

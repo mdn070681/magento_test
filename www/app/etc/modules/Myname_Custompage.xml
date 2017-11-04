@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Myname_Custompage>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Myname_Custompage>
+    </modules>
+</config>
